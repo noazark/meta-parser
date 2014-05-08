@@ -1,0 +1,49 @@
+#!/usr/bin/env node
+// # Style Guide
+//
+// Here be the example of all Meta Parser can do.
+//
+// > note: terminals are weird, and have varied support
+// > see [ANSI escape code](http://en.wikipedia.org/wiki/ANSI_escape_code#graphics)
+//
+// # Heading Level 1
+// ## Heading Level 2
+// ### Heading Level 3
+// #### Heading Level 4
+//
+// # Horizontal Rule
+// -----
+//
+// # Text Styles
+// **bold**
+// _emphasize_
+// ~~strikethrough~~
+//
+// # Links
+// [self](https://github.com/noazark/meta-parser)
+//
+// # Blocks
+// Your normal paragraph
+// is broken up by \n
+// just like this.
+//
+// Another paragraph here.
+//
+// > Block quotes work
+// > just as you would expect.
+// >
+// > Very similar to paragraphs
+//
+// # Lists
+// unordered
+// - first
+// - second
+//
+// ordered
+// 1. one
+// 1. two
+//
+
+var metaParser = require('../')
+
+console.log(metaParser(__filename))

@@ -1,0 +1,12 @@
+{
+  "name": "meta-parser",
+  "version": "0.1.0",
+  "description": "Parse Markdown for CLI output",
+  "main": "index.js",
+  "author": "Noah H. Smith",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^0.4.0",
+    "marked": "^0.3.2"
+  }
+}
