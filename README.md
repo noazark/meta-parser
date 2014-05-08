@@ -5,7 +5,7 @@ Take comments from the head of a file and turn it into beautiful CLI ready text.
 This is primarily used for documentation of CLI tools.
 
 ## Example:
-```
+```javascrpit
 #!/usr/bin/env node
 // # Basic Example
 //
@@ -46,3 +46,6 @@ if (command === 'super') {
 process.exit(0)
 
 ```
+
+**Result**
+![Example CLI Output](screen-shot.png)
