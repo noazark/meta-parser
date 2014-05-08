@@ -17,10 +17,10 @@ This is primarily used for documentation of CLI tools.
 // ```
 //
 // ## Commands
-// super - try it to find out
-// crazy - try it to find out
-// insane - try it to find out
-// help - output the help docs
+// super   -   try it to find out
+// crazy   -   try it to find out
+// insane  -   try it to find out
+// help    -   output the help docs
 //
 // > Exits with 1 if given an unknown command
 //
